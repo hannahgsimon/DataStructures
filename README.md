@@ -1,22 +1,67 @@
-The program has the following menu options:  
-1- Author Info  
-2- Add Stack Array Data  
-3- Add Stack List Data  
-4- Add Queue Array Data  
-5- Add Queue List Data  
-6- Remove Stack Array Data  
-7- Remove Stack List Data  
-8- Remove Queue Array Data  
-9- Remove Queue List Data  
-10- Get Max Pending Data  
-11- Print Data  
-0- Exit  
+# Stack & Queue Implementations (Array and Linked List)
 
-Program Files:  
-Project_StackQueueLinkedList.java - This contains main.  
-QueueList.java - Queue data structure, I modified so that it does not use a built-in queue data type, instead I implemented my own queue using a Linked List (I implemented a Linked List as well, did not use a built-in type) for internal storage.  
-StackArray.java - Stack data structure, I modified it so that it does not use a built-in stack data type, instead I implemented my own stack using an array for internal storage.  
-QueueArray.java - Queue data structure, I modified it so that it does not use a built-in queue data type, instead I implemented my own queue using an array for internal storage. The queue is circular.  
-StackList.java - Stack data structure, I modified it so that it does not use a built-in stack data type, instead I implemented my own stack using a Linked List (which I implemented as well) for internal storage.  
-Node.java  
-SampleData.java  
+This project implements **stack and queue data structures** in Java using both **array-based** and **linked-list–based** approaches. All core data structures are implemented **from scratch**, without using Java’s built-in `Stack`, `Queue`, or `LinkedList` classes, to demonstrate a deep understanding of underlying data structure mechanics.
+
+The program provides a **menu-driven console interface** that allows users to interactively add, remove, and inspect data across multiple stack and queue implementations.
+
+---
+
+## ✨ Features
+- Stack implementation using an array
+- Stack implementation using a linked list
+- Queue implementation using a circular array
+- Queue implementation using a linked list
+- Custom linked list and node implementation
+- Menu-driven interface for interactive testing
+- Ability to compare behavior across implementations
+
+---
+
+## 🛠️ Technologies Used
+- Java
+- Object-Oriented Programming
+- Custom data structure implementations
+
+---
+
+## 📁 Project Structure
+```bash
+.
+├── Project_StackQueueLinkedList.java   # Main program (menu-driven interface)
+├── StackArray.java                     # Stack implemented using an array
+├── StackList.java                      # Stack implemented using a linked list
+├── QueueArray.java                     # Circular queue implemented using an array
+├── QueueList.java                      # Queue implemented using a linked list
+├── Node.java                           # Node implementation for linked lists
+├── SampleData.java                     # Sample data generator
+└── README.md
+```
+
+## 🧠 Design Notes
+- No built-in stack, queue, or linked list data types are used
+- Linked lists are implemented manually using a custom Node class
+- The array-based queue uses a circular buffer to optimize space
+- This design enables direct comparison of:
+  - Memory usage patterns
+  - Insertion/removal behavior
+  - Structural differences between implementations
+
+🧪 Build & Run
+Compile all files:
+```bash
+javac *.java
+```
+
+Run the program:
+```bash
+java Project_StackQueueLinkedList
+```
+
+## 📜 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## 📬 Contact
+For questions or feedback, please contact Hannah G. Simon at hgsimon2@gmail.com.
