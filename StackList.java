@@ -1,4 +1,4 @@
-package project_stackqueuelinkedlist;
+package stackqueuedemo;
 import project_stackqueuelinkedlist.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -131,4 +131,5 @@ public class StackList <T extends Comparable> implements Comparable<T> {
         //return(!data.isEmpty());
         return (root != null);
     }
+
 }
