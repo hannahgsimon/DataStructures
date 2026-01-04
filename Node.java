@@ -1,4 +1,4 @@
-package project_stackqueuelinkedlist;
+package stackqueuedemo;
 
 /**
  *
@@ -25,4 +25,5 @@ public class Node<T extends Comparable>
     {
         value = val;
     }
+
 }
