@@ -1,4 +1,4 @@
-package project_stackqueuelinkedlist;
+package stackqueuedemo;
 
 /**
  *
@@ -26,4 +26,5 @@ public class SampleData implements Comparable<SampleData>
         return(Integer.toString(data));
     }
     
+
 }
