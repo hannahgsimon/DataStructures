@@ -1,4 +1,4 @@
-package project_stackqueuelinkedlist;
+package stackqueuedemo;
 import java.util.Stack;
 import java.util.Arrays;
 
@@ -122,4 +122,5 @@ public class StackArray <T extends Comparable> implements Comparable<T>
 //        }
 //        return(data.peek().compareTo(o));
     }
+
 }
