@@ -27,13 +27,13 @@ The program provides a **menu-driven console interface** that allows users to in
 ## 📁 Project Structure
 ```bash
 .
-├── Project_StackQueueLinkedList.java   # Main program (menu-driven interface)
-├── StackArray.java                     # Stack implemented using an array
-├── StackList.java                      # Stack implemented using a linked list
-├── QueueArray.java                     # Circular queue implemented using an array
-├── QueueList.java                      # Queue implemented using a linked list
-├── Node.java                           # Node implementation for linked lists
-├── SampleData.java                     # Sample data generator
+├── StackQueueDemo.java      # Main program (menu-driven interface)
+├── StackArray.java          # Stack implemented using an array
+├── StackList.java           # Stack implemented using a linked list
+├── QueueArray.java          # Circular queue implemented using an array
+├── QueueList.java           # Queue implemented using a linked list
+├── Node.java                # Node implementation for linked lists
+├── SampleData.java          # Sample data generator
 └── README.md
 ```
 
@@ -54,7 +54,7 @@ javac *.java
 
 Run the program:
 ```bash
-java Project_StackQueueLinkedList
+java StackQueueDemo
 ```
 
 ## 📜 License
