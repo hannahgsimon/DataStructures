@@ -1,4 +1,4 @@
-package project_stackqueuelinkedlist;
+package stackqueuedemo;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -7,11 +7,11 @@ import java.util.Scanner;
  * @author hannahgsimon
  */
 
-public class Project_StackQueueLinkedList
+public class StackQueueDemo
 {
     public static void main(String[] args)
     {
-        Project_StackQueueLinkedList proj = new Project_StackQueueLinkedList();
+        StackQueueDemo proj = new StackQueueDemo();
         proj.run();
     }
 
@@ -172,4 +172,5 @@ public class Project_StackQueueLinkedList
         }
     }
     
+
 }
