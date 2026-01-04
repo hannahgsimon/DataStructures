@@ -1,4 +1,4 @@
-package project_stackqueuelinkedlist;
+package stackqueuedemo;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Arrays;
@@ -140,4 +140,5 @@ public class QueueArray<T extends Comparable> implements Comparable<T>
         return (data[head] != null);
     }
     
+
 }
